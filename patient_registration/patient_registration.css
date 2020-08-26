@@ -1,0 +1,170 @@
+	
+/* we are taking two breaking point 320 and 768*/	
+html { 
+      font-size: calc(.9em + 0.4vw) 
+      
+      }
+html a 
+  { 
+    color: black;
+
+  }
+  html a:hover 
+  { 
+    color: darkgreen;
+    
+  }
+body
+{
+  
+}
+ 
+
+
+.donation_form_container
+{
+  box-shadow: 0px 0px 7px 3px lightgray;
+  padding: 16px;
+
+
+
+}
+
+/* Full-width input fields */
+  .donation_form_container input[type=email], input[type=Date], select,option, input[type=number], input[type=text], input[type=password], textarea{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: none;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  background-color: white;  
+}
+
+
+
+.donation_form_container input[type=Date], input[type=email]:focus, select:focus,option:focus, input[type=number]:focus, input[type=text]:focus, input[type=password]:focus, textarea:focus {
+  
+  outline: 1px solid pink;
+}
+
+.donation_form_container hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+/* Set a style for all buttons */
+.donation_form_container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.donation_form_container button:hover {
+  opacity:1;
+}
+
+
+
+/* Add padding to container elements */
+.inside_form_container {
+  padding: 16px;
+
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style the tab */
+.blood_tab
+{ 
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  border-radius: 15px 0px 0px;
+}
+/* Style the buttons that are used to open the tab content */
+.blood_tab button
+{ height: 100%;
+  width: auto;
+  background-color: #696667FF;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s
+
+
+}
+
+  /* Change background color of buttons on hover */
+
+.blood_tab button:hover
+{
+  background-color: #964F4CFF;
+  color:white;
+}
+
+/* Create an active/current tablink class */
+.blood_tab button.active 
+{
+  background-color: #964F4CFF;
+  color:white;
+}
+
+/* Style the tab content */
+
+.blood_tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+#b_registration
+{
+  display: block;
+  
+}
+#b_registration:active
+{
+  
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

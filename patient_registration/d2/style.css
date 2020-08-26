@@ -1,0 +1,22 @@
+<style type=”text/css”>
+.form{
+width: 100%;
+display: inline-block;
+position: inherit;
+padding: 6px;
+}
+
+.label {
+padding: 10px;
+width: 10%;
+}
+.input{
+position: inherit;
+padding: 3px;
+margin-left: 2.3%;
+}
+
+.btn{
+margin-left: 6.5%;
+}
+</style>
